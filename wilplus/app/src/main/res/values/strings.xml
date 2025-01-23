@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">wilplus</string>
+    <string name="edit_profiles">Edit profiles</string>
+    <string name="whoiswatching">Who\'s watching?</string>
+    <string name="perfil7">perfil7</string>
+    <string name="perfil6">perfil6</string>
+    <string name="perfil5">perfil5</string>
+    <string name="perfil4">perfil4</string>
+    <string name="perfil3">perfil3</string>
+    <string name="perfil2">perfil2</string>
+    <string name="perfil1">perfil1</string>
+
+</resources>
