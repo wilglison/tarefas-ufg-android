@@ -9,14 +9,19 @@ class MovieDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_details)
 
-        val playButton: Button = findViewById(R.id.)
+        val playButton: Button = findViewById(R.id.button)
         playButton.setOnClickListener {
             // Lógica para iniciar o filme
         }
     }
-}
 
-override fun onResume() {
-    super.onResume()
-    overridePendingTransition(R.anim.enter, R.anim.exit)
+    override fun onResume() {
+        super.onResume()
+        overridePendingTransition(R.anim.enter, R.anim.exit)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
+    }
 }

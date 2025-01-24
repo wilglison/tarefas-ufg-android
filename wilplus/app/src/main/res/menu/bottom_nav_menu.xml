@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:color="@color/white"
+        android:enabled="true"
+        android:icon="@drawable/baseline_add_home_24"
+        android:title=""
+        android:visible="true" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:color="@color/white"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_downloads"
+        android:color="@color/white"
+        android:icon="@drawable/i_down_24"
+        android:title=""
+        android:visible="true" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/perfil2"
+        android:color="@color/white"
+        android:title="" />
+</menu>
